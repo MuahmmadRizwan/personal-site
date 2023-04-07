@@ -1,0 +1,314 @@
+.bar {
+    background-image: url(../images/gabriel-komorov-p5N3PVOOF_0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-right: 5%;
+    padding: 20px;
+    transition: .2s ease;
+}
+
+.navbar-toggler {
+    background-color: rgb(252, 176, 84);
+    font-size: 10px;
+}
+
+.nav-link {
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: .2s ease;
+}
+
+.navbar-brand {
+    margin-left: 10%
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.navbar-nav .nav-item .nav-link {
+
+    margin-right: 50px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: chocolate;
+}
+
+/* navbar end */
+.about{
+    background-image: url(../images/joe-woods-4Zaq5xY5M_c-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#Riz {
+    margin-left: 10%;
+    margin-top: 17%;
+    width: 90%;
+    height: auto;
+    margin-bottom: 15%;
+}
+#Riz:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+#pic-1:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+#pic-2:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.info {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 14%;
+}
+
+.info h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+    color: chocolate;
+}
+
+.info a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    margin: 26px 0;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+.info a:hover{
+    background-color: rgb(59, 174, 209);
+}
+#pic-1{
+    width: 100%;
+    height: auto;   
+    margin-top: 3%;
+}
+.about-text{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 25px;
+}
+.about-p{
+    margin-top: 7%;
+    text-align: center;
+}
+.button-2{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: smaller;
+    margin-top: 5%;
+
+}
+.button-2:hover{
+    background-color:transparent;
+    border: 2px solid #f9004d;}
+.button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: smaller;
+    margin-top: 5%;
+   
+}
+.button:hover{
+    background-color:transparent;
+    border: 2px solid #f9004d;
+    color: black;
+}
+/* skills */
+.skil-p{
+    margin-top: 7%;
+    text-align: center;
+}
+#pic-2{
+    width: 100%;
+    height: auto;   
+    margin-top: 7%;
+    border-radius: 100%;
+}
+.car{
+    padding: 1%;
+    
+}
+.card{
+    padding: 1%;
+    background-color: black;
+    text-align: center;
+    border-radius: 15px;
+    color: white; 
+    box-shadow: 0 6px 10px 0 black; 
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    box-shadow: 0 8px 16px 0 black;
+}
+.services{
+    background-color: beige;
+}
+.services h1{
+    color: white;
+
+}
+#logo{
+    width: 6%;
+    height: 5%;
+}
+.icon{
+ font-size: 40px;
+color: #f9004d;
+}
+footer{
+    background-color: #191919;
+    height: auto;
+    width: 100%;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    padding: 19px;
+}
+.social{
+    display: flex;
+    text-align: center;
+    position: relative;
+    padding: 16px;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9004d;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.social a :hover{
+    transform: scale(2);
+    transition: .3s;
+}
+
+
+/* media querry */
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .info h1 {
+        font-size: 25px;
+    }
+
+    .info h3 {
+        font-size: 10px;
+   
+        line-height: 15px;
+    }
+    #pic-1{
+        width: 80%;
+        height: auto;   
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+    #Riz {
+        margin-left: 13%;
+        margin-top: 5%;
+        width: 75%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .info a {
+        text-decoration: none;
+        color: aliceblue;
+        background-color: black;
+        margin: 26px 0;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+        transition: .4s ease;
+        font-size: 8px;
+        
+    }
+    .paragraph{
+        text-align: center;
+        font-size: 15px;
+    }
+    .about-text{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+    #logo{
+        width: 15%;
+        height: 15%;
+    }
+    .card:hover{
+        transform: scale(0.9);
+        transition: 0.2s;
+    }
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 602px ) and (max-width: 850px){
+    #Riz {
+        margin-left: 10%;
+        margin-top: 17%;
+        margin-bottom: 20%;
+        width: 70%;
+        height: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
