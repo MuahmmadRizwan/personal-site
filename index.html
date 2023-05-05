@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/488fa6f7e5.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/fotor_2023-2-19_12_39_3.png">
@@ -52,10 +53,10 @@
         </nav>
 
 
-        <div class="container ">
+        <div class="container">
 
             <div class="row">
-                <div class="info  col-lg-7">
+                <div class="info  col-lg-7"  data-aos="fade-right">
                     <h3>I Am<h1> <span>R</span>izwan</h1>
                     </h3>
                     <h1> <span>W</span>EB <span>D</span>ESIGNER</h1>
@@ -64,7 +65,7 @@
                     </h3>
                     <a href=" ">Hire Me</a>
                 </div>
-                <div class=" col-lg-5 ">
+                <div class=" col-lg-5 "  data-aos="fade-left">
                     <img id="Riz" src="images/riz.png-modified.png" alt="">
                 </div>
 
@@ -76,10 +77,10 @@
         <br>
         <div class="container ">
             <div class="row">
-                <div class="  col-lg-5">
+                <div class="  col-lg-5" data-aos="flip-right">
                     <img id="pic-1" src="images/fotor_2023-2-19_12_39_3.png" alt="">
                 </div>
-                <div class="about-p col-lg-7">
+                <div class="about-p col-lg-7" data-aos="flip-right">
                     <h1 class="about-text">ABOUT ME</h1>
                     <h3 class="paragraph">Devoleper & Designer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, distinctio ex! Ducimus
@@ -100,10 +101,10 @@
         <br>
         <div class="container ">
             <div class="row">
-                <div class="  col-lg-5">
+                <div class="  col-lg-5" data-aos="fade-right">
                     <img id="pic-2" src="images/giphy.gif" alt="">
                 </div>
-                <div class="skil-p col-lg-7">
+                <div class="skil-p col-lg-7" data-aos="fade-left">
                     <br>
                     <h1 class="about-text">Skills</h1>
                     <h3 class="paragraph">Expert in Developing Websites</h3>
@@ -126,7 +127,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="car col-lg-4 col-md-6">
+                    <div class="car col-lg-4 col-md-6" data-aos="flip-left">
                         <br>
                         <div class="card" style="width: 18rem; border: none;">
                             <div class="card-body">
@@ -142,7 +143,7 @@
                         </div>
                     </div>
                     <br>
-                    <div class="car col-lg-4 col-md-6">
+                    <div class="car col-lg-4 col-md-6" data-aos="flip-right">
                         <br>
                         <div class="card" style="width: 18rem; border: none;">
                             <div class="card-body">
@@ -158,7 +159,7 @@
                         </div>
                     </div>
 
-                    <div class="car col-lg-4 col-md-6">
+                    <div class="car col-lg-4 col-md-6" data-aos="flip-left">
                         <br>
                         <div class="card" style="width: 18rem; border: none;">
                             <div class="card-body">
@@ -202,6 +203,13 @@
             </footer>
         </section>
     </center>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:200,
+            duration:2000,
+          });
+        </script>
 </body>
 
 </html>
